@@ -1,0 +1,36 @@
+.todos.json
+
+# Ignore Go build artifacts
+/bin/
+/obj/
+
+# Ignore the Go module cache
+/pkg/
+# or
+# .cache/
+
+# Ignore IDE and editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Go test binary, which is useful for debugging
+*.test
+
+# Ignore generated files
+*.exe
+*.out
+
+# Ignore local environment files
+.env
+
+# Ignore go mod vendor folder
+vendor/
+
+# Ignore the JSON file with TODO data
+.todos.json
